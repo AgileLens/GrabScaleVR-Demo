@@ -1,12 +1,12 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.2",
+	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
 		{
 			"Name": "XRVisualization",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "ResonanceAudio",
@@ -25,11 +25,10 @@
 			"Name": "OpenXR",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win32",
 				"Win64",
 				"Linux",
 				"Android",
-				"HoloLens"
+				"VisionOS"
 			]
 		},
 		{
@@ -44,6 +43,25 @@
 		{
 			"Name": "Layama",
 			"Enabled": false
+		},
+		{
+			"Name": "OpenXREyeTracker",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "OpenXRHandTracking",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android",
+				"VisionOS"
+			]
 		}
 	],
 	"TargetPlatforms": [
